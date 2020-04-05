@@ -38,6 +38,7 @@
         <paxina id="3" >
               <tipo>1</tipo>
               <cabeceira>Marque a resposta correta:</cabeceira>
+              <imaxe>COVID.jpg</imaxe>
               <texto>Não é um sintoma da Covid-19:</texto>
               <resp texto="" valor="0">Dificuldade de respirar.</resp>
               <resp texto="" valor="0">Tosse.</resp>
@@ -47,7 +48,7 @@
         <paxina id="4" >
               <tipo>6</tipo>
               <cabeceira>Arraste as pergunta para a resposta correta:</cabeceira>
-              <mais ir="11">Corrigir!</mais>
+              <mais ir="12">AJUDA</mais>
               <nome caixa="1">Pode matar?</nome>
               <nome caixa="2">Tem vacina?</nome>
               <nome caixa="1">Pode dificultar a respiração?</nome>
@@ -60,6 +61,7 @@
         <paxina id="5" >
               <tipo>1</tipo>
               <cabeceira>Marque a resposta correta:</cabeceira>
+              <imaxe>PESSOAS.jpg</imaxe>
               <texto>Como chamamos uma pessoa doente, mas que não apresenta sintomas dessa doença?</texto>
               <resp texto="" valor="1">Assintomática.</resp>
               <resp texto="" valor="0">Contaminada.</resp>
@@ -69,6 +71,7 @@
         <paxina id="6" >
               <tipo>1</tipo>
               <cabeceira>Marque a resposta correta:</cabeceira>
+              <imaxe>PESSOAS2.jpg</imaxe>
               <texto>A Covid-19 pode ser transmitida pelo ar?</texto>
               <resp texto="" valor="1">Sim.</resp>
               <resp texto="" valor="0">Não.</resp>
@@ -85,13 +88,14 @@
         <paxina id="8" >
               <tipo>1</tipo>
               <cabeceira>Marque a resposta correta:</cabeceira>
-              <imaxe>beijo_no_rosto.jpg</imaxe>
+              <imaxe>beijonorosto.jpg</imaxe>
               <texto>É possível se contaminar por meio de aperto de mãos ou beijos no rosto?</texto>
               <resp texto="" valor="1">Sim.</resp>
               <resp texto="" valor="0">Não.</resp>
         </paxina>
         <paxina id="9" >
               <tipo>1</tipo>
+              <cabeceira>Marque a resposta correta:</cabeceira>
               <imaxe>maos.jpg</imaxe>
               <texto>Nunca devemos tocar os olhos, boca e nariz antes de higienizar as mãos!</texto>
               <resp texto="" valor="1">Corretíssimo!!!</resp>
@@ -99,12 +103,31 @@
         </paxina>
         <paxina id="10" >
               <tipo>1</tipo>
+              <cabeceira>Marque a resposta correta:</cabeceira>
               <imaxe>masca.jpg</imaxe>
               <texto>Usar máscara pode colaborar com a prevenção contra a Covid-19?</texto>
               <resp texto="" valor="1">Corretíssimo!!!!</resp>
               <resp texto="" valor="0">Falso!!!</resp>
         </paxina>
         <paxina id="11" >
+              <tipo>2</tipo>
+            <nonpasar>1</nonpasar>
+              <mais ir="1">Início</mais>
+              <texto posx="107" posy="10" ancho="384" largo="299"><![CDATA[
+<p align="center">
+<font color="#080000" face="Arial" size="12">      </font><font color="#FFFFFF" face="Arial" size="20"><b>ATENÇÃO</b><br>
+<br>
+<b>   SE VOCÊ PODE,</b><br>
+<b>   FIQUE EM CASA!</b><br>
+<br>
+<b>NÃO SE DESCUIDE,</b><br>
+<b>A COVIDE-19 MATA!    </b></font><font color="#080000" face="Arial" size="12"> </font></p>
+]]></texto>
+              <cfondo>1525EE</cfondo>
+              <ctexto>0000FF</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="12" >
               <tipo>2</tipo>
             <nonpasar atras="1" >1</nonpasar>
               <mais ir="4">Voltar</mais>
