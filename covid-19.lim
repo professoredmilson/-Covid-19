@@ -113,15 +113,18 @@
               <tipo>2</tipo>
             <nonpasar>1</nonpasar>
               <mais ir="1">Início</mais>
-              <texto posx="107" posy="10" ancho="384" largo="299"><![CDATA[
+              <texto posx="107" posy="10" ancho="368" largo="352"><![CDATA[
 <p align="center">
-<font color="#080000" face="Arial" size="12">      </font><font color="#FFFFFF" face="Arial" size="20"><b>ATENÇÃO</b><br>
+<font color="#080000" face="Arial" size="12">      </font><font color="#FFFFFF" face="Arial" size="20"><b>ATENÇÃO</b> <br>
 <br>
-<b>   SE VOCÊ PODE,</b><br>
+<b>   </b></font><font color="#FFFFFF" face="Arial" size="16"><b>SE VOCÊ PODE,</b><br>
 <b>   FIQUE EM CASA!</b><br>
+</font><font color="#400080" face="Arial" size="20"><b>Nunca toque nos olhos, </b><br>
+<b>nariz ou boca antes </b><br>
+<b>de higienizar as mãos!</b></font><font color="#FFFFFF" face="Arial" size="20"><b>   </b></font><font color="#080000" face="Arial" size="12"> <br>
+</font><font color="#FFFFFF" face="Arial" size="16"><b>COVIDE-19 MATA!</b><br>
 <br>
-<b>NÃO SE DESCUIDE,</b><br>
-<b>A COVIDE-19 MATA!    </b></font><font color="#080000" face="Arial" size="12"> </font></p>
+</font></p>
 ]]></texto>
               <cfondo>1525EE</cfondo>
               <ctexto>0000FF</ctexto>
